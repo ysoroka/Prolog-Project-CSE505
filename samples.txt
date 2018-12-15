@@ -1,0 +1,23 @@
+% Sample 1
+Sentences = [ [baldey, 'is', eagle, '.'],
+			  [emperor, 'is', penguin, '.'],
+			  ['every', penguin, 'is', bird, '.'],
+			  ['every', eagle, 'is', bird,'.'],
+			  ['every', penguin, 'does not', fly, '.']
+			],
+
+% Sample 2		
+Sentences = [ ['every', girl, 'is', naive, '.'],
+			 ['every', girl, dreams, '.'],
+			 ['no', boy, 'is', naive, '.'],
+			 ['every', boy, parties,'.'],
+			 [alice, 'is', girl, '.'],
+			 [bob, 'is', boy, '.']
+		   ],
+
+% Sample 3
+Sentences = [ ['no', student, 'is', bad, '.'],
+			 ['every', student, parties,'.'],
+			 [alice, 'is', student, '.'],
+			 [alice, studies, '.']
+		   ],
