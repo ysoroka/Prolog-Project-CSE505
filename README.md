@@ -27,7 +27,11 @@ In case you'd like to introduce new words and/or agents not included in the prog
 ```
 lexicon(cat:noun, wform:[student], arg:X, term:student(X)).
 ```
-where **cat** argument is the category of the word (noun, verb, det, etc.); **wform** stands for word-form, i.e. the exact word that appears in a sentence; **arg** specifies argument of the term that the word refers to; **term** denotes the actual term that will be used in the internal format and in the ASP. For each of your custom agents, add a line of the format **agent(name).**, where **name** is the name of your agent.
+where **cat** argument is the category of the word (noun, verb, det, etc.); **wform** stands for word-form, i.e. the exact word that appears in a sentence; **arg** specifies argument of the term that the word refers to; **term** denotes the actual term that will be used in the internal format and in the ASP. For each of your custom agents, add a line of the format 
+```
+agent(name).
+```
+where **name** is the name of your agent.
 
 Note that currently the program only supports the following categories: noun (cat:noun), verb (cat:iv), determinant ('every', 'no'), adjective (cat:jj). All sentences must have a simple structure, no articles ("a", "an", "the"), no "and"/"or"-linked components.
 
