@@ -8,8 +8,7 @@ The program **big.pl** (stands for **Bi**-directional **G**rammar) should be run
 
 Having done that, you will see the output of the program for a pre-defined example.
 
-
-
+###
 **If you want to run the program on YOUR OWN INPUT SENTENCES**, you have to modify the file **big.pl**:
 1. Change the variable **Sentences** in **test** (line 203).
 
