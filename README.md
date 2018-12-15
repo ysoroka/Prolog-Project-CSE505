@@ -27,7 +27,7 @@ where **cat** argument is the category of the word (noun, verb, det, etc.); **wf
 Note that currently the program only supports the following categories: noun (```cat:noun```), verb (```cat:iv```), determinant (```'every', 'no'```), adjective (```cat:jj```). All sentences must have a simple structure, no articles ("a", "an", "the"), no "and"/"or"-linked components.
 
 ## Output of the program
-Program **big.pl** gives out 4 outputs at once:
+Program **big.pl** gives out four outputs at once:
 1. Input sentences
 2. Internal representation
 3. ASP representation
