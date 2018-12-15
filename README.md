@@ -33,10 +33,6 @@ Note that currently the program only supports the following categories: noun (ca
 
 
 ### Copyright and attribution
-Created by [Eugenia Soroka](https://github.com/EugeniaSoroka)
-Ph.D. student
-Stony Brook University, NY
-CSE505: Computing with Logic
-Fall 2018
+Created by [Eugenia Soroka](https://github.com/EugeniaSoroka), Ph.D. student, Stony Brook University, NY (CSE505: Computing with Logic, Fall 2018)
 
 Special thanks to [Rolf Schwitter](http://web.science.mq.edu.au/~rolfs/) for guidance on how to get started and sharing useful resources.
