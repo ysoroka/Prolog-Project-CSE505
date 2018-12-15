@@ -5,13 +5,9 @@ This project is based on the paper ["Specifying and Verbalising Answer Set Progr
 
 ### Usage Instructions
 The program **big.pl** (stands for **Bi**-directional **G**rammar) should be run using [SWI-Prolog](http://www.swi-prolog.org/Download.html). To give it a test run, simply load the file using command:
-```
-[big].
-```
+``` [big]. ```
 And then query 
-```
-test.
-```
+``` test. ```
 Having done that, you will see the output of the program for a pre-defined example.
 
 
