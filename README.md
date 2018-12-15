@@ -4,11 +4,12 @@
 This project is based on the paper ["Specifying and Verbalising Answer Set Programs in Controlled Natural Language" by Rolf Schwitter](https://www-cambridge-org.proxy.library.stonybrook.edu/core/journals/theory-and-practice-of-logic-programming/article/specifying-and-verbalising-answer-set-programs-in-controlled-natural-language/F9B6775E7B491C8C6B22194435E22AFB). I recreated what was done in the paper but on a much smaller scale, focusing on creating a bi-directional grammar suitable for both processing and generation of program specifications in CNL.
 
 ## Usage Instructions
+### Running the program
 The program **big.pl** (stands for **Bi**-directional **G**rammar) should be run using [SWI-Prolog](http://www.swi-prolog.org/Download.html). To give it a test run, simply load the file using command: ``` [big]. ``` And then query: ``` test. ```
 
 Having done that, you will see the output of the program for a pre-defined example.
 
-###
+### Customizing input 
 **If you want to run the program on YOUR OWN INPUT SENTENCES**, you have to modify the file **big.pl**:
 1. Change the variable **Sentences** in **test** (line 203).
 
@@ -24,7 +25,6 @@ lexicon(cat:noun, wform:[student], arg:X, term:student(X)).
 where **cat** argument is the category of the word (noun, verb, det, etc.); **wform** stands for word-form, i.e. the exact word that appears in a sentence; **arg** specifies argument of the term that the word refers to; **term** denotes the actual term that will be used in the internal format and in the ASP. For each of your custom agents, add a line of the format ``` agent(name). ```, where **name** is the name of your agent, e.g. ```bob```.
 
 Note that currently the program only supports the following categories: noun (```cat:noun```), verb (```cat:iv```), determinant (```'every', 'no'```), adjective (```cat:jj```). All sentences must have a simple structure, no articles ("a", "an", "the"), no "and"/"or"-linked components.
-
 
 
 
