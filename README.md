@@ -1,5 +1,5 @@
 # Prolog-Project-CSE505
-## Bi-directional definite-clause grammar for converting problems specified in Controlled Natural Language to Answer Set Programs, and verbalizing them back into language
+### Bi-directional definite-clause grammar for converting problems specified in Controlled Natural Language to Answer Set Programs, and verbalizing them back into language
 
 This project is based on the paper ["Specifying and Verbalising Answer Set Programs in Controlled Natural Language" by Rolf Schwitter](https://www-cambridge-org.proxy.library.stonybrook.edu/core/journals/theory-and-practice-of-logic-programming/article/specifying-and-verbalising-answer-set-programs-in-controlled-natural-language/F9B6775E7B491C8C6B22194435E22AFB). I recreated what was done in the paper but on a much smaller scale, focusing on creating a bi-directional grammar suitable for both processing and generation of program specifications in CNL.
 
