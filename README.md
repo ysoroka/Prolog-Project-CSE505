@@ -26,7 +26,14 @@ where **cat** argument is the category of the word (noun, verb, det, etc.); **wf
 
 Note that currently the program only supports the following categories: noun (```cat:noun```), verb (```cat:iv```), determinant (```'every', 'no'```), adjective (```cat:jj```). All sentences must have a simple structure, no articles ("a", "an", "the"), no "and"/"or"-linked components.
 
-
+## Output of the program
+Program **big.pl** gives out 4 outputs at once:
+1. Input sentences
+2. Internal representation
+3. ASP representation
+4. Generated (back) sentences
+Please refer to **Report.pdf** for more detail about the representations. 
+Note that **3. ASP representation** is a valid answer-set program, which you can solve using e.g. [clingo](https://potassco.org/clingo/run/), which I encourage you to try.
 
 ## Copyright and attribution
 Created by [Eugenia Soroka](https://github.com/EugeniaSoroka), Ph.D. student, Stony Brook University, NY (CSE505: Computing with Logic, Fall 2018)
