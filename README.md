@@ -14,7 +14,7 @@ Having done that, you will see the output of the program for a pre-defined examp
 1. Change the variable **Sentences** in **test** (line 203).
 
 Note that each sentence must be a list of words, where all words must be separated by a comma, and a sentence must end with the special symbol **'.'**. Each sentence must start with the system word **'every'**/**'no'** or have an agent in it, e.g. like in **[bob,dreams,'.']**, where **bob** is an agent. System words are: **'every', 'no', 'is', 'is not', 'does not', '.'**.
-See **examples.txt** for samples of input sentences that you can try running.
+See **samples.txt** for samples of input sentences that you can try running.
 
 2. Broaden the **lexicon**.
 
