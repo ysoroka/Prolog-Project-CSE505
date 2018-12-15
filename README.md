@@ -15,18 +15,20 @@ test.
 Having done that, you will see the output of the program for a pre-defined example.
 
 
-**If you want to run the program on your own input sentences**, you have to modify the file **big.pl**:
+**If you want to run the program on YOUR OWN INPUT SENTENCES**, you have to modify the file **big.pl**:
 1. Change the variable **Sentences** in **test** (line 203).
 
 Note that each sentence must be a list of words, where all words must be separated by a comma, and a sentence must end with the special symbol **'.'**. Each sentence must start with the system word **'every'**/**'no'** or have an agent in it, e.g. like in **[bob,dreams,'.']**, where **bob** is an agent. System words are: **'every', 'no', 'is', 'is not', 'does not', '.'**.
 See **examples.txt** for samples of input sentences that you can try running.
 
 2. Broaden the **lexicon**.
+
 In case you'd like to introduce new words and/or agents not included in the program, you have to add them yourself in **big.pl**. Current **lexicon** is defined in lines 175-195. For each of your custom words, add a line following the format of 
 ```
 lexicon(cat:noun, wform:[student], arg:X, term:student(X)).
 ```
 where **cat** argument is the category of the word (noun, verb, det, etc.); **wform** stands for word-form, i.e. the exact word that appears in a sentence; **arg** specifies argument of the term that the word refers to; **term** denotes the actual term that will be used in the internal format and in the ASP. For each of your custom agents, add a line of the format **agent(name).**, where **name** is the name of your agent.
+
 Note that currently the program only supports the following categories: noun (cat:noun), verb (cat:iv), determinant ('every', 'no'), adjective (cat:jj). All sentences must have a simple structure, no articles ("a", "an", "the"), no "and"/"or"-linked components.
 
 
