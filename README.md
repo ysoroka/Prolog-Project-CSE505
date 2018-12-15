@@ -11,14 +11,14 @@ Having done that, you will see the output of the program for a pre-defined examp
 
 ### Customizing input 
 **If you want to run the program on YOUR OWN INPUT SENTENCES**, you have to modify the file **big.pl**:
-1. Change the variable **Sentences** in **test** (line 203).
+1. Change the variable **Sentences** in **test** (line 206).
 
 Note that each sentence must be a list of words, where all words must be separated by a comma, and a sentence must end with the special symbol **'.'**. Each sentence must start with the system word **'every'**/**'no'** or have an agent in it, e.g. like in **[bob,dreams,'.']**, where **bob** is an agent. System words are: **'every', 'no', 'is', 'is not', 'does not', '.'**.
 See **samples.txt** for samples of input sentences that you can try running.
 
 2. Broaden the **lexicon**.
 
-In case you'd like to introduce new words and/or agents not included in the program, you have to add them yourself in **big.pl**. Current **lexicon** is defined in lines 175-195. For each of your custom words, add a line following the format of:
+In case you'd like to introduce new words and/or agents not included in the program, you have to add them yourself in **big.pl**. Current **lexicon** is defined in lines 175-198. For each of your custom words, add a line following the format of:
 ```
 lexicon(cat:noun, wform:[student], arg:X, term:student(X)).
 ```
