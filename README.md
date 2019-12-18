@@ -39,6 +39,6 @@ Note that **3. ASP representation** is a valid answer-set program, which you can
 
 
 ## Copyright and attribution
-Created by [Yevheniia Soroka](https://github.com/EugeniaSoroka), Ph.D. student, Stony Brook University, NY (CSE505: Computing with Logic, Fall 2018)
+Created by [Yevheniia Soroka](https://github.com/ysoroka), Ph.D. student, Stony Brook University, NY (CSE505: Computing with Logic, Fall 2018)
 
 Special thanks to [Rolf Schwitter](http://web.science.mq.edu.au/~rolfs/) for guidance on how to get started and sharing useful resources.
